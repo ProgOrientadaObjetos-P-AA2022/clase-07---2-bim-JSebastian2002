@@ -10,6 +10,26 @@ package paquete3;
  * @author reroes
  */
 public class Ciudad {
+    private String nombres;
+    private int poblacion;
+    
+    public void establecerNombres(String n){
+       nombres = n;
+    }
+    
+    
+    public String obtenerNombres(){
+        return nombres;
+    }
+    
+    public void establecerPoblacion(int c){
+        poblacion = c;
+    }
+    
+    public int obtenerPoblacion(){
+        return poblacion;
+    }
+    
     
     
 }
